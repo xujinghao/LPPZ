@@ -1,0 +1,200 @@
+body,
+html {
+	background-color: #eee;
+	height: 100%;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.lp_main {
+	margin: 0px auto;
+	height: auto;
+	background-color: #eee;
+}
+
+.bt1 {
+	border-top: 1px dotted #ddd;
+}
+
+.lp_item>div:nth-child(2n) {
+	border-left: 3px solid #eee;
+}
+
+.lp_item>div:nth-child(2n-1) {
+	border-right: 3px solid #eee;
+}
+
+.lp_item p {
+	height: 40px;
+	line-height: 20px;
+	overflow: hidden;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #000000;
+}
+
+.lp_item span {
+	font-size: 16px;
+	font-weight: bold;
+	color: #FF0000;
+}
+
+.bt1 a {
+	width: 20px;
+	height: 20px;
+	display: block;
+	float: right;
+	background-image: url(../img/buy.png);
+}
+
+.bt2 span {
+	width: 20px;
+	height: 20px;
+	display: block;
+	float: left;
+}
+
+.swiper-container {
+	width: 100%;
+}
+
+.swiper-container img {
+	width: 100%;
+	display: block;
+}
+
+.left-top {
+	float: left;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.xjh-t-search {
+	outline: none;
+	border: 0px solid;
+	border-radius: 5px;
+	padding-left: 35px;
+	width: 100%;
+	height: 34px;
+	background-image: url(../img/lp_sch_txt.png);
+	background-position: 35px;
+	background-repeat: no-repeat;
+	background-size: auto 23px;
+}
+
+.xjh-btn-search {
+	position: absolute;
+	left: 3px;
+	top: 3px;
+	width: 28px;
+	height: 28px;
+	display: block;
+	background-image: url(../img/search.png);
+}
+
+.xjh-div-search {
+	position: relative;
+	margin-left: 70px;
+}
+
+.xjh-t-search:focus {
+	background-image: none;
+}
+
+.xjh-list {
+	background-image: url(../img/typeico.png);
+	width: 30px;
+	height: 26px;
+	display: block;
+}
+.xjh-title {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	background-color: #FFFFFF;
+}
+.xjh-title .a1{
+	display: block;
+	width: 34px;
+	height: 34px;
+	background-image: url(../img/left2.png);
+	margin: 10px;
+	float: left;
+}
+.xjh-listtype a {
+	border-bottom: 1px solid #ddd;
+}
+
+.weui_bar_item_on {
+	background-color: #FFFFFF;
+}
+
+.xjh-fs a {
+	font-size: 12px;
+}
+
+.xjh-my-own {
+	background-color: darkorange;
+	width: 100%;
+	height: 100px;
+}
+
+.xjh-p1 {
+	color: white;
+	font-size: 40px;
+	font-family: "微软雅黑";
+}
+
+.xjh-p2 {
+	color: black;
+	font-size: 20px;
+	font-family: 黑体;
+}
+
+.xjh-botton-qiandao {
+	outline: none;
+	border: 0px solid;
+	border-radius: 5px;
+	background-color: #FFBE00;
+	margin-left: 12px;
+	width: 70px;
+	height: 40px;
+	color: red;
+	display: block;
+}
+.xjh-car-1{
+	background-image: url(../img/liang.png);
+	background-repeat: no-repeat;
+	background-color: #FFFFFF;
+	background-size: auto 100%;
+	height: 30px;
+	color: red;
+	padding-left:35px ;
+	font-size: 12px;
+	line-height: 35px;
+	margin-top: 5px;
+}
+.xjh-car-img-1{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #EEEEEE;
+}
+.xjh-car-t{
+	line-height: 25px;
+	margin-top: 5px;
+}
+.xjh-car-2 span{
+	color: red;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+.xjh-car-2 input{
+	width: 30px;
+	height: 30px;
+	background-color: #FFFFFF;
+	border:1px solid #eeeeee;
+}
